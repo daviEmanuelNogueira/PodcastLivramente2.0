@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+3D&family=Sarala&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(180deg, #01CC78 0%, #000000 100%);
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family: 'Rock 3D', cursive;
+    color: azure;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;  
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 24px; 
+}
+
+.cabecalho-logo {
+    height: 72px;
+    border-radius: 20px;
+}
+
+.menu-icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    border-top: 0.4px solid #01CC78;
+}
+
+.icon1 {
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 24px;
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 18px  
+}
+
+.icon2 {
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 24px;
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 18px  
+}
+
+.descricao{
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    text-align: center;
+    margin: 25px;
+}
+
+.logo-insta {
+    height: 74px;
+}
+
+.rodape {
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    text-align: center;
+    border-top: 0.4px solid #01CC78;
+    padding:  15px;
+    margin: auto;    
+}
