@@ -18,71 +18,139 @@ h1 {
     color: azure;
 }
 
-.cabecalho {
+/* -------- Começo do cabeçalho --------*/
+#div-cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    margin: 25px;  
+}
+#img-cabecalho{
+    height: 70px;
     display: flex;
     flex-direction: row;  
-    align-items: center;
     justify-content: center;
-    gap: 15px;
-    padding: 24px; 
-}
-
-.cabecalho-logo {
-    height: 72px;
     border-radius: 20px;
 }
 
-.menu-icon {
+#cabecalho-podcast {
+    display: flex;
+    align-items: center;
+}
+
+/* -------- Final do cabeçalho --------*/
+
+.hr {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, #01CC78, transparent);
+}
+
+/* -------- Começo do Corpo --------*/
+
+
+#main1 {
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+#main2 {
+    margin: 30px;
+    display: block;
+    justify-content: center;
+}
+
+
+#section-icon1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+#section-icon2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.div-icon {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    gap: 25px;
-    border-top: 0.4px solid #01CC78;
-}
-
-.icon1 {
-    display: flex;
-    flex-direction: column;  
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
-    padding: 24px;
+    gap: 15px;  
     font-family: 'Sarala', sans-serif;
     color: #FFF2E7;
-    font-weight: 400;
-    font-size: 18px  
+    font-size: 18px;
+
+
 }
 
-.icon2 {
-    display: flex;
-    flex-direction: column;  
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
-    padding: 24px;
-    font-family: 'Sarala', sans-serif;
-    color: #FFF2E7;
-    font-weight: 400;
-    font-size: 18px  
-}
-
-.descricao{
+#descricao{
     font-family: 'Sarala', sans-serif;
     color: #FFF2E7;
     text-align: center;
-    margin: 25px;
+    margin-top: 50px;
 }
 
 .logo-insta {
-    height: 74px;
+    height: 70px;
+}
+*/
+
+/* -------- Final do Corpo --------*/
+
+.hr {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, #01CC78, transparent);
 }
 
+/* -------- Inicio do Corpo --------*/
 .rodape {
+    display: block;
     font-family: 'Sarala', sans-serif;
     color: #FFF2E7;
     text-align: center;
-    border-top: 0.4px solid #01CC78;
-    padding:  15px;
-    margin: auto;    
+    font-size: 12px;
+    margin: 15px;
+}
+/* -------- Final do Rodapé --------*/
+
+/*----------Formatação de links*----------*/
+
+a:link {
+    transition: all 0.5s;
+    cursor: pointer;
+    color: #FFF2E7;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #FFF2E7;
+}
+
+a:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.button {
+    background-color: #FFF2E7;
+    width: 100px;
+    height: 30px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba( 0, 0 , 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala' sans-serif;
+    font-weight: 400;
+    color: #01CC78;
 }
